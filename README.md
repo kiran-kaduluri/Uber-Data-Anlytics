@@ -20,6 +20,8 @@ The dataset used contains Uber raw data from April to September 2014. The data i
 - Lat/Lon coordinates
 - Base company code
 
+You can find the data on Kaggle: [Uber Rides Dataset](https://www.kaggle.com/datasets/fivethirtyeight/uber-pickups-in-new-york-city).
+
 *Note: You need to download all the CSV files (April to September 2014) and place them in the correct directory (or adjust the file paths in the script) to run the full analysis.* 
 
 ## Prerequisites
@@ -44,9 +46,11 @@ install.packages(c("shiny", "shinydashboard", "ggplot2", "ggthemes", "lubridate"
 ## How to Run
 
 1. Clone this repository.
-2. Ensure you have the datasets downloaded and paths updated in the script (currently pointing to `~/uber dataset/...`).
+2. Download the datasets and ensure the file paths in the script point to your data directory (currently pointing to `~/uber dataset/...`).
 3. Open `uber data analytics.R` in RStudio or any R environment.
 4. Run the script or click the "Run App" button in RStudio.
-5. Log in using the default credentials:
+5. Log in using the default credentials configured in the script:
    - **Username**: `kiran`
    - **Password**: `123`
+   
+   *⚠️ Security Warning: Be sure to change the default credentials in the source code before deploying this app in a production environment.*
