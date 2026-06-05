@@ -51,6 +51,6 @@ install.packages(c("shiny", "shinydashboard", "ggplot2", "ggthemes", "lubridate"
 4. Run the script or click the "Run App" button in RStudio.
 5. Log in using the default credentials configured in the script:
    - **Username**: `kiran`
-   - **Password**: `123`
+   - **Password**: `***`
    
    *⚠️ Security Warning: Be sure to change the default credentials in the source code before deploying this app in a production environment.*
